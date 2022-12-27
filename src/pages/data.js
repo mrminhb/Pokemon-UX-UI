@@ -1,0 +1,90 @@
+//pokemon list
+//img url: https://assets.pokemon.com/assets/cms2/img/pokedex/full/${pid}.png
+export const pokemons = [
+    {"pid":"001","name":"Bulbasaur","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png","type1":"Grass","type2":"Poison","favorite":0},
+    {"pid":"002","name":"Ivysaur","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png","type1":"Grass","type2":"Poison","favorite":0},
+    {"pid":"003","name":"Venusaur","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png","type1":"Grass","type2":"Poison","favorite":0},
+    {"pid":"004","name":"Charmander","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png","type1":"Fire","type2":"None","favorite":0},
+    {"pid":"005","name":"Charmeleon","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png","type1":"Fire","type2":"None","favorite":0},
+    {"pid":"006","name":"Charizard","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png","type1":"Fire","type2":"Flying","favorite":0},
+    {"pid":"007","name":"Squirtle","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png","type1":"Water","type2":"None","favorite":0},
+    {"pid":"008","name":"Wartortle","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png","type1":"Water","type2":"None","favorite":0},
+    {"pid":"009","name":"Blastoise","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png","type1":"Water","type2":"None","favorite":0},
+    {"pid":"025","name":"Pikachu","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png","type1":"Electric","type2":"None","favorite":0},
+    {"pid":"026","name":"Raichu","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png","type1":"Electric","type2":"None","favorite":0},
+    {"pid":"032","name":"Nidoran (male)","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png","type1":"Poison","type2":"None","favorite":0},
+    {"pid":"033","name":"Nidorino","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png","type1":"Poison","type2":"None","favorite":0},
+    {"pid":"034","name":"Nidoking","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png","type1":"Poison","type2":"Ground","favorite":0},
+    {"pid":"052","name":"Meowth","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png","type1":"Normal","type2":"None","favorite":0},
+    {"pid":"053","name":"Persian","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png","type1":"Normal","type2":"None","favorite":0},
+    {"pid":"058","name":"Growlithe","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png","type1":"Fire","type2":"None","favorite":0},
+    {"pid":"059","name":"Arcanine","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png","type1":"Fire","type2":"None","favorite":0},
+    {"pid":"063","name":"Abra","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png","type1":"Psychic","type2":"None","favorite":0},
+    {"pid":"064","name":"Kadabra","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png","type1":"Psychic","type2":"None","favorite":0},
+    {"pid":"065","name":"Alakazam","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png","type1":"Psychic","type2":"None","favorite":0},
+    {"pid":"066","name":"Machop","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png","type1":"Fighting","type2":"None","favorite":0},
+    {"pid":"067","name":"Machooke","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png","type1":"Fighting","type2":"None","favorite":0},
+    {"pid":"068","name":"Machamp","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png","type1":"Fighting","type2":"None","favorite":0},
+    {"pid":"074","name":"Geodude","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png","type1":"Rock","type2":"Ground","favorite":0},
+    {"pid":"075","name":"Graveler","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png","type1":"Rock","type2":"Ground","favorite":0},
+    {"pid":"076","name":"Golem","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png","type1":"Rock","type2":"Ground","favorite":0},
+    {"pid":"092","name":"Gastly","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png","type1":"Ghost","type2":"Poison","favorite":0},
+    {"pid":"093","name":"Haunter","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png","type1":"Ghost","type2":"Poison","favorite":0},
+    {"pid":"094","name":"Gengar","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png","type1":"Ghost","type2":"Poison","favorite":1},
+    {"pid":"111","name":"Rhyhorn","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png","type1":"Ground","type2":"Rock","favorite":0},
+    {"pid":"112","name":"Rhydon","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png","type1":"Ground","type2":"Rock","favorite":0},
+    {"pid":"123","name":"Scyther","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png","type1":"Bug","type2":"Flying","favorite":0},
+    {"pid":"129","name":"Magikarp","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png","type1":"Water","type2":"None","favorite":0},
+    {"pid":"130","name":"Gyarados","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png","type1":"Water","type2":"Flying","favorite":1},
+    {"pid":"131","name":"Lapras","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png","type1":"Water","type2":"Ice","favorite":0},
+    {"pid":"133","name":"Eevee","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png","type1":"Normal","type2":"None","favorite":0},
+    {"pid":"134","name":"Vaporeon","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png","type1":"Water","type2":"None","favorite":0},
+    {"pid":"135","name":"Jolteon","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png","type1":"Electric","type2":"None","favorite":0},
+    {"pid":"136","name":"Flareon","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png","type1":"Fire","type2":"None","favorite":0},
+    {"pid":"143","name":"Snorlax","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png","type1":"Normal","type2":"None","favorite":0},
+    {"pid":"147","name":"Dratini","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png","type1":"Dragon","type2":"None","favorite":0},
+    {"pid":"148","name":"Dragonair","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png","type1":"Dragon","type2":"None","favorite":0},
+    {"pid":"149","name":"Dragonite","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png","type1":"Dragon","type2":"Flying","favorite":1},
+    {"pid":"208","name":"Steelix","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/208.png","type1":"Steel","type2":"Ground","favorite":0},
+    {"pid":"252","name":"Treecko","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/252.png","type1":"Grass","type2":"None","favorite":0},
+    {"pid":"253","name":"Grovyle","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/253.png","type1":"Grass","type2":"None","favorite":0},
+    {"pid":"254","name":"Sceptile","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/254.png","type1":"Grass","type2":"None","favorite":0},
+    {"pid":"304","name":"Aron","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/304.png","type1":"Steel","type2":"Rock","favorite":0},
+    {"pid":"305","name":"Lairon","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/305.png","type1":"Steel","type2":"Rock","favorite":0},
+    {"pid":"306","name":"Aggron","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/306.png","type1":"Steel","type2":"Rock","favorite":0},
+    {"pid":"359","name":"Absol","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/359.png","type1":"Dark","type2":"None","favorite":0},
+    {"pid":"363","name":"Spheal","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/363.png","type1":"Ice","type2":"Water","favorite":0},
+    {"pid":"364","name":"Sealeo","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/364.png","type1":"Ice","type2":"Water","favorite":0},
+    {"pid":"365","name":"Walrein","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/365.png","type1":"Ice","type2":"Water","favorite":0},
+    {"pid":"570","name":"Zorua","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/570.png","type1":"Dark","type2":"None","favorite":0},
+    {"pid":"571","name":"Zoroark","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/571.png","type1":"Dark","type2":"None","favorite":0},
+    {"pid":"714","name":"Noibat","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/714.png","type1":"Flying","type2":"Dragon","favorite":0},
+    {"pid":"715","name":"Noivern","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/715.png","type1":"Flying","type2":"Dragon","favorite":0},
+    {"pid":"823","name":"Corvilknight","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/823.png","type1":"Flying","type2":"Steel","favorite":0},
+    {"pid":"872","name":"Snom","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/872.png","type1":"Ice","type2":"Bug","favorite":0}
+]
+
+export const party = [
+    {"pid":"006","name":"Charizard","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png","type1":"Fire","type2":"Flying","favorite":0},
+    {"pid":"003","name":"Venusaur","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png","type1":"Grass","type2":"Poison","favorite":0},
+    {"pid":"009","name":"Blastoise","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png","type1":"Water","type2":"None","favorite":0},
+    {"pid":"025","name":"Pikachu","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png","type1":"Electric","type2":"None","favorite":0}
+]
+
+export const favParty1 = [
+    {"slotid":1,"pid":"025","name":"Pikachu","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png","type1":"Electric","type2":"None","favorite":0},
+    {"slotid":1,"pid":"003","name":"Venusaur","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png","type1":"Grass","type2":"Poison","favorite":0},
+    {"slotid":1,"pid":"006","name":"Charizard","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png","type1":"Fire","type2":"Flying","favorite":0},
+    {"slotid":1,"pid":"130","name":"Gyarados","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png","type1":"Water","type2":"Flying","favorite":1},
+    {"slotid":1,"pid":"149","name":"Dragonite","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png","type1":"Dragon","type2":"Flying","favorite":1},
+    {"slotid":1,"pid":"034","name":"Nidoking","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png","type1":"Poison","type2":"Ground","favorite":0}
+]
+
+export const favParty2 = [
+    {"id":42,"slotid":2,"pid":"006","name":"Charizard","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png","type1":"Fire","type2":"Flying","favorite":0},
+    {"id":43,"slotid":2,"pid":"003","name":"Venusaur","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png","type1":"Grass","type2":"Poison","favorite":0},
+    {"id":44,"slotid":2,"pid":"009","name":"Blastoise","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png","type1":"Water","type2":"None","favorite":0},
+    {"id":45,"slotid":2,"pid":"025","name":"Pikachu","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png","type1":"Electric","type2":"None","favorite":0},
+    {"id":46,"slotid":2,"pid":"131","name":"Lapras","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png","type1":"Water","type2":"Ice","favorite":0},
+    {"id":47,"slotid":2,"pid":"149","name":"Dragonite","img":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png","type1":"Dragon","type2":"Flying","favorite":1}
+]

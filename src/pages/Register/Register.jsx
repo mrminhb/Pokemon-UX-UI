@@ -9,25 +9,25 @@ function Register() {
     <div id="register-page-ctn">
         <div id="form-container">
             <div id="title">
-                <img src="/assets/register2_icon.png" alt="" class="rotate_effect" />
+                <img src="/assets/register2_icon.png" alt="" className="rotate_effect" />
                 <h2>Welcome to PokePartyBuilder!</h2>
                 <img src="/assets/pokeball-transparent-png-2.png" alt="" />
             </div>
             <form action="">
-                <div class="field">
-                    <label for="username">Username:<p>*</p></label>
+                <div className="field">
+                    <label htmlFor="username">Username:<p>*</p></label>
                     <input type="text" name="username" />
                 </div>
-                <div class="field">
-                    <label for="email">Email:<p>*</p></label>
+                <div className="field">
+                    <label htmlFor="email">Email:<p>*</p></label>
                     <input type="email" name="email" />
                 </div>
-                <div class="field">
-                    <label for="password">Password:<p>*</p></label>
+                <div className="field">
+                    <label htmlFor="password">Password:<p>*</p></label>
                     <input type="password" name="password" />
                 </div>
-                <div class="field">
-                    <label for="password">Confirm password:<p>*</p></label>
+                <div className="field">
+                    <label htmlFor="password">Confirm password:<p>*</p></label>
                     <input type="password" name="cPassword" />
                 </div>
                 <button id="login-btn" type="submit">

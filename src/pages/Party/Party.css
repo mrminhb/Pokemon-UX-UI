@@ -2,7 +2,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url("../../assets//Pokeball-bg.png");
+    background-image: url("../../../public/assets/Pokeball-bg.png");
     background-size: cover;
     justify-content: center;
 }
@@ -207,6 +207,26 @@ hr {
     height: 1000px;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .pkm-ctn {
     position: relative;
     display: flex;
@@ -264,7 +284,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 90px;
     height: 25px;
     border: 1px hidden;
@@ -371,6 +391,8 @@ hr {
 }
 
 #party-btn-container button {
+    display: flex;
+    align-items: center;
     margin-bottom: 10px;
     height: 30px;
     width: fit-content;
@@ -381,10 +403,6 @@ hr {
     border: 1px hidden;
     border-radius: 10px;
     cursor: pointer;
-}
-
-#party-btn-container i {
-    margin-right: 10px;
 }
 
 #sav-btn,
@@ -425,4 +443,9 @@ hr {
 #load-btn-slot:hover {
     background-color: rgb(117, 181, 206);
     border: 1px outset black
+}
+
+.slot-btn-ctn {
+    display: flex;
+    flex-direction: row;
 }
