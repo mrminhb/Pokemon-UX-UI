@@ -1,0 +1,97 @@
+#register-page-ctn {
+    display: flex;
+    width: 100%;
+    height: 92vh;
+    background-image: url("../../../public/assets/login-register.png");
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-page-ctn #form-container {
+    position: relative;
+    width: 500px;
+    height: 580px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 11px 47px 2px rgba(0, 0, 0, 0.4);
+}
+
+#form-container span {
+    display: table;
+    margin: 0 auto;
+}
+
+#title {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px 20px 0 0px;
+    background-color: darkblue;
+    margin-bottom: 20px;
+}
+
+#title h2 {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+#title img {
+    height: 70px;
+    width: 70px;
+}
+
+.field {
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.field label {
+    margin-left: 35px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.field p {
+    display: inline;
+    color: red;
+}
+
+.field input {
+    margin: auto;
+    width: 85%;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#login-btn {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    left: 7%;
+    background-color: darkblue;
+    width: 86%;
+    height: 45px;
+    border-radius: 10px;
+    border-style: hidden;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#login-btn:hover {
+    background-color: cornflowerblue;
+}
+
+#login-btn span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
