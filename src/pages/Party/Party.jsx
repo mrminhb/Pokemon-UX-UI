@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { pokemons } from '../data'
+import { party, pokemons } from '../data'
 import PokemonList from '../../components/PokemonList/PokemonList'
+import PartyDisplay from '../../components/PartyDisplay/PartyDisplay'
 
 import './Party.css'
 import ClearIcon from '@mui/icons-material/Clear';
@@ -9,6 +10,28 @@ import SaveIcon from '@mui/icons-material/Save';
 import UploadIcon from '@mui/icons-material/Upload';
 
 function Party() {
+
+  const [displaySave, setDisplaySave] = useState(false)
+  const [displayLoad, setDisplayLoad] = useState(false)
+
+  const onDisplaySave = () => {
+    if (displaySave) {
+        setDisplaySave(false)
+        return;
+    }
+    setDisplaySave(true)
+    return;
+  }
+
+  const onDisplayLoad = () => {
+    if (displayLoad) {
+        setDisplayLoad(false)
+        return;
+    }
+    setDisplayLoad(true)
+    return;
+  }
+
   return (
     <div className="page-ctn">
         <div id="selection-party-container">
@@ -87,35 +110,40 @@ function Party() {
                     <h2>Your Party</h2>
                     <img src="/assets/moltres_icon.png" alt="" />
                 </div>
-                {/* <PartyDisplay 
-                    v-if="party.length > 0"
-                    :party="party"
-                    :removeFromParty="removeFromParty"
-                />
-                <h2 v-else>
-                    Party is currently empty
-                </h2> */}
+                {   
+                    party ? 
+                    <PartyDisplay party={party}/> :
+                    <h2>
+                        Party is currently empty
+                    </h2> 
+                }
                 <div id="party-btn-container">
                     <button id="clear-btn">
                         <ClearIcon />
                         Clear party
                     </button>
-                    <button id="sav-btn">
+                    <button id="sav-btn" onClick={() => onDisplaySave()}>
                         <SaveIcon />
                         Save as favorite party
                     </button>
-                    <div className='slot-btn-ctn'>
-                        <button id="sav-btn-slot">Slot 1</button>
-                        <button id="sav-btn-slot">Slot 2</button>
-                    </div>
-                    <button id="load-btn">
+                    {
+                        displaySave ?
+                        <div className='slot-btn-ctn'>
+                            <button id="sav-btn-slot">Slot 1</button>
+                            <button id="sav-btn-slot">Slot 2</button>
+                        </div> : ""
+                    }
+                    <button id="load-btn" onClick={() => onDisplayLoad()}>
                         <UploadIcon />
                         Load favorite party
                     </button>
-                    <div className='slot-btn-ctn'>
-                        <button id="load-btn-slot">Slot 1</button>
-                        <button id="load-btn-slot">Slot 2</button>
-                    </div>
+                    {
+                        displayLoad ?
+                        <div className='slot-btn-ctn'>
+                            <button id="load-btn-slot">Slot 1</button>
+                            <button id="load-btn-slot">Slot 2</button>
+                        </div> : ""
+                    }
                 </div>
             </div>
         </div>
